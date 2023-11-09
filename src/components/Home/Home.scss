@@ -1,0 +1,30 @@
+.header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+
+    >img{
+        height: 100px;
+        
+    }
+    >div{
+        width: 100%;
+        margin-left: 4vmax;
+        >a{
+            color: white;
+            text-decoration: none;
+            margin: 1vmax;
+        }
+      
+    }
+    >svg {
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        
+    }
+}
+
